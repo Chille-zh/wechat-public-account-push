@@ -41,7 +41,7 @@ export const USER_CONFIG = {
     poetry: false,
     
     /** 星座运势 */
-    horoscope: false,
+    horoscope: true,
     
     /** 生日消息和节日消息 */
     birthdayMessage: true,
@@ -87,11 +87,7 @@ export const USER_CONFIG = {
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
         // 在一起的日子
-        {"keyword": "love_day", date: "2022-09-08"},
-        // 结婚纪念日
-        {"keyword": "marry_day", date: "2022-09-09"},
-        // 退伍日
-        {"keyword": "ex_day", date: "2022-09-10"},
+        {"keyword": "love_day", date: "2022-08-03"},
       ]
     },
     {
@@ -209,7 +205,7 @@ export const USER_CONFIG = {
    * */
   CUSTOMIZED_DATE_LIST: [
     // 在一起的日子
-    {"keyword": "love_day", date: "2022-09-08"},
+    {"keyword": "love_day", date: "2022-08-03"},
     // 结婚纪念日
     {"keyword": "marry_day", date: "2022-09-09"},
     // 退伍日
